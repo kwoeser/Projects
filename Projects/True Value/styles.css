@@ -1,0 +1,719 @@
+/* navbar*/
+
+
+
+
+nav {
+  background-color: #292828;
+  color: #c8966c;
+}
+
+nav li {
+  display: inline;
+}
+
+nav span {
+  /* color: w; */
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  padding: 20px 10px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li a{
+  color: #c8966c;
+  font-weight: bold;
+}
+
+nav i {
+  margin-left: 15px;
+  color: #c8966c;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.search {
+  position: absolute;
+  right: 520px;
+  /* text-align: center; */
+}
+
+.search i {
+  font-size: 20px;
+  position: relative;
+  right: 55px;
+  top: 3px;
+  color: #292828;
+}
+
+.typing {
+  font-size: 15px;
+  /* background-color: #c8966c; */
+  background-color: white;
+  border: 1px solid #292828;
+  height: 30px;
+  width: 550px;
+  color:#292828;
+}
+
+nav a{
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+
+
+
+
+/* HEADER FOR INDEX HOME PAGE */
+header {
+  background-image: url(img/fake.jpg);
+  background-size: cover;
+  /* text-align: center; */
+  background-position: left;
+  height: 600px;
+  font-weight: bold;
+  /* text-align: center; */
+
+}
+
+
+
+header a {
+  margin-top: 15px;
+
+}
+
+header h1{
+  /* color: #D9A994; */
+  color: white;
+  font-size: 65px;
+  /* margin-left: 30px; */
+
+}
+
+header h2 {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.TrueValue {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 175px;
+  margin-left: 200px;
+}
+
+
+.goal {
+  padding: 55px;
+  /* background-color: white; */
+  float: right;
+  text-align: center;
+  height: 400px;
+  width: 350px;
+  position: relative;
+  right: 200px;
+  bottom: 125px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.goal i {
+  font-size: 100px;
+  margin-top: 10px;
+  /* padding-bottom: 25px; */
+}
+
+
+.goal h1 {
+  font-size: 25px;
+
+  margin-top: 10px;
+
+
+}
+
+.goal p {
+  margin-top: 10px;
+  /* padding-bottom: 25px; */
+}
+
+
+
+.main {
+  /* background-color: ; */
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+.items-1 {
+  padding: 15px;
+  background-image: url(img/tools.jfif);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 40px;
+  left: 300px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.items-1 h1 {
+  margin-top: 10px;
+}
+
+.items-1 p {
+  margin-top: 10px;
+}
+
+.items-1 a {
+  margin-top: 20px;
+}
+
+
+
+.items-2 {
+  padding: 15px;
+  background-image: url(img/bob.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 925px;
+  bottom: 260px;
+  color: whitesmoke;
+  font-weight: bold;
+
+}
+
+.items-2 h1 {
+  margin-top: 10px;
+}
+
+.items-2 p {
+  margin-top: 10px;
+}
+
+.items-2 a {
+  margin-top: 20px;
+}
+
+
+
+
+.sale {
+  height: 600px;
+  background-color: #292828;
+  font-weight: bold;
+}
+
+.sale img {
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.sale hr {
+  width: 1475px;
+  position: relative;
+  left: 15px;
+}
+
+.sale h1 {
+  padding-top: 25px;
+  padding-left: 15px;
+  color: white;
+}
+
+.sale h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.sale p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.sale a {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+
+.sale-1 {
+  background-color: white;
+  height: 450px;
+  width: 400px;
+  position: relative;
+  top: 40px;
+  left: 125px;
+  border-radius: 20px;
+
+}
+
+.sale-2 {
+  background-color: white;
+  height: 450px;
+  width: 400px;
+  position: relative;
+  left: 560px;
+  bottom: 410px;
+  border-radius: 20px;
+}
+
+.sale-3 {
+  background-color: white;
+  height: 450px;
+  width: 400px;
+  position: relative;
+  left: 995px;
+  bottom: 860px;
+  border-radius: 20px;
+}
+
+
+
+
+
+.contact {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact img {
+  height: 450px;
+  width: 1519px;
+
+}
+
+/* PRODUCTS.HTML */
+.PRODUCTS {
+  height: 1250px;
+  /* background-color: burlywood; */
+}
+
+.PRODUCTS h1 {
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
+.PRODUCTS hr {
+  width: 1475px;
+  position: relative;
+  left: 15px;
+}
+
+
+.lumber {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #74831a;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  border: 3px solid black;
+}
+
+.lumber img {
+  height: 250px;
+  width: 394px;
+}
+
+.lumber h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.lumber p {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.lumber a {
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+
+
+
+.paint {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #74831a;
+  position: relative;
+  bottom: 450px;
+  left: 565px;
+  border: 3px solid black;
+}
+
+.paint img {
+  height: 250px;
+  width: 394px;
+}
+
+.paint h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.paint p {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.paint a {
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+.ventilation {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #74831a;
+  position: relative;
+  bottom: 951px;
+  left: 1025px;
+  border: 3px solid black;
+}
+
+.ventilation img {
+  height: 250px;
+  width: 394px;
+}
+
+.ventilation h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.ventilation p {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.ventilation a {
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+.concrete {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #74831a;
+  position: relative;
+  bottom: 875px;
+  left: 100px;
+  border: 3px solid black;
+}
+
+.concrete img {
+  height: 250px;
+  width: 394px;
+}
+
+.concrete h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.concrete p {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.concrete a {
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+
+
+
+.roofing {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #74831a;
+  position: relative;
+  bottom: 1375px;
+  left: 565px;
+  border: 3px solid black;
+}
+
+.roofing img {
+  height: 250px;
+  width: 394px;
+}
+
+.roofing h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.roofing p {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.roofing a {
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+.plumber {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  color: #74831a;
+  position: relative;
+  bottom: 1875px;
+  left: 1025px;
+  border: 3px solid black;
+}
+
+.plumber img {
+  height: 250px;
+  width: 394px;
+}
+
+.plumber h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.plumber p {
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.plumber a {
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RENTALS */
+.rentals {
+  margin-bottom: 50px;
+
+}
+
+/* .move {
+  padding-top: 25px;
+  padding-left: 15px;
+} */
+
+.rentals img {
+  width: 550px;
+  height: 300px;
+  margin-left: 15px;
+}
+
+.rentals h1 {
+  padding-top: 14px;
+  padding-left: 15px;
+  /* margin-left: 10px;s */
+}
+
+.rentals p {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.rentals h3 {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.rentals li {
+  padding-top: 5px;
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+.rentals hr {
+  width: 1475px;
+  position: relative;
+  left: 15px;
+}
+
+.rentals div {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.bobcat {
+  height: 300px;
+  width: 890px;
+  background-color: burlywood;
+  /* position: relative;
+  left: 600px;
+  bottom: 304px; */
+  display: inline-block;
+
+}
+
+.bobcat a {
+  position: relative;
+  left: 770px;
+  bottom: 30px;
+}
+
+
+
+
+
+.excavators {
+  height: 300px;
+  width: 890px;
+  background-color: burlywood;
+  /* position: relative;
+  left: 600px;
+  bottom: 550px; */
+  display: inline-block;
+}
+
+.excavators a {
+  position: relative;
+  left: 770px;
+  bottom: 30px;
+}
+
+
+.tractors {
+  height: 300px;
+  width: 890px;
+  background-color: burlywood;
+  /* position: relative;
+  left: 600px;
+  bottom: 800px; */
+  display: inline-block;
+}
+
+.tractors a {
+  position: relative;
+  left: 770px;
+  bottom: 30px;
+}
+
+
+.telehanders {
+  height: 300px;
+  width: 890px;
+  background-color: burlywood;
+  /* position: relative;
+  left: 600px;
+  bottom: 1050px; */
+  display: inline-block;
+
+}
+
+
+.telehanders a {
+  position: relative;
+  left: 770px;
+  bottom: 30px;
+}
+
+.electrical {
+  height: 300px;
+  width: 890px;
+  background-color: burlywood;
+  /* position: relative;
+  left: 600px;
+  bottom: 1300px; */
+  display: inline-block;
+}
+
+.electrical a {
+  position: relative;
+  left: 770px;
+  bottom: 30px;
+}
+
+.maintenance {
+  height: 300px;
+  width: 890px;
+  background-color: burlywood;
+  /* position: relative;
+  left: 600px;
+  bottom: 1550px; */
+  /* margin-top: 1000px */
+  display: inline-block;
+}
+
+.maintenance a {
+  position: relative;
+  left: 770px;
+  bottom: 30px;
+}
